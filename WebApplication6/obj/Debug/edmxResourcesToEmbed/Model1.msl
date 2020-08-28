@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CapstoneDemoModelStoreContainer" CdmEntityContainer="CapstoneDemoEntities">
+    <EntitySetMapping Name="Photos">
+      <EntityTypeMapping TypeName="CapstoneDemoModel.Photo">
+        <MappingFragment StoreEntitySet="Photo">
+          <ScalarProperty Name="PhotoID" ColumnName="PhotoID" />
+          <ScalarProperty Name="Photo1" ColumnName="Photo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
